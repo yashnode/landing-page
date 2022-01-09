@@ -70,9 +70,10 @@ body {
 .hero-btn {
     background-color: #3882f6;
     color: #f9faf8;
-    width: 100px;
+    width: 125px;
     height: 60px;
     border: none;
     border-radius: 1rem;
     margin-top: 5px;
+    font-size: 18px;
 }
