@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 5px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-links {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-links a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 10px
+}
