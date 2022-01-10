@@ -1,79 +1,71 @@
-* {
+button{
+    border: none;
+}
+body,*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.header {
-    background-color: #1f2937;
+.header{
     display: flex;
     justify-content: space-around;
+    background-color: #1f2937;
+    padding: 20px;
+}
+.header-logo{
+    display: flex;
+    justify-content: center;
     font-size: 24px;
-    padding-top: 20px;
-}
-
-.header-logo {
-    display: flex;
-    justify-content: center;
-    color: #f9faf8;
-    margin-top: 5px;
-}
-
-.menu-container {
-    display: flex;
-    justify-content: center;
-}
-
-.menu-links {
-    display: flex;
-    justify-content: center;
-}
-
-.menu-links a {
-    font-size: 18px;
-    color: #f9faf8;
-    text-decoration: none;
-    padding: 10px
-}
-
-.hero {
-    display: flex;
-    background-color: #1f2937;
-    justify-content: space-around;
-    padding-top: 100px;
-}
-
-.hero-left {
-    padding: 40px 40px 40px 230px;
-}
-
-.hero-right {
-    padding: 40px 230px 40px 0;
-}
-
-.title {
-    color: #f9faf8;
-    font-size: 48px;
+    color:#f9faf8;
     font-weight: bolder;
+}
+.menu-links{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.tagline {
-    font-size: 18px;
+.menu-links a{
+    text-decoration: none;
     color: #e5e7eb;
+    font-size: 18px;
+    padding: 10px;
 }
-
-.hero-btn {
+.hero{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 100px 20px 50px 20px;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-left: 120px;
+}
+.title{
+    color:#f9faf8;
+    font-size: 48px;
+    padding: 5px;
+    font-weight: bolder;
+    max-width: 360px;
+}
+.tagline{
+    padding: 5px;
+    padding-left: 10px;
+    color: #e5e7eb;
+    font-size: 18px;
+    max-width: 450px;
+}
+.hero-btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 0.5rem;
     background-color: #3882f6;
     color: #f9faf8;
-    width: 125px;
-    height: 60px;
-    border: none;
-    border-radius: 1rem;
-    margin-top: 5px;
-    font-size: 18px;
+}
+.hero-right{
+    padding-right: 150px;
+    max-width: 550px;
 }
