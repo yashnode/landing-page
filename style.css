@@ -1,71 +1,136 @@
-button{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+button {
     border: none;
 }
-body,*{
+
+body,
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
     padding: 20px;
 }
-.header-logo{
+
+.header-logo {
     display: flex;
     justify-content: center;
     font-size: 24px;
-    color:#f9faf8;
+    color: #f9faf8;
     font-weight: bolder;
 }
-.menu-links{
+
+.menu-links {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.menu-links a{
+
+.menu-links a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
     padding: 10px;
 }
-.hero{
+
+.hero {
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
     padding: 100px 20px 50px 20px;
 }
-.hero-left{
+
+.hero-left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
     margin-left: 120px;
 }
-.title{
-    color:#f9faf8;
+
+.title {
+    color: #f9faf8;
     font-size: 48px;
     padding: 5px;
     font-weight: bolder;
     max-width: 360px;
 }
-.tagline{
+
+.tagline {
     padding: 5px;
     padding-left: 10px;
     color: #e5e7eb;
     font-size: 18px;
     max-width: 450px;
 }
-.hero-btn{
+
+.hero-btn {
     width: 100px;
     height: 30px;
     border-radius: 0.5rem;
     background-color: #3882f6;
     color: #f9faf8;
 }
-.hero-right{
+
+.hero-right {
     padding-right: 150px;
     max-width: 550px;
+}
+.info-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding: 35px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 1rem;
+}
+.tiles-container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.tile{
+    max-width: 200px;
+    padding-left: 20px;
+}
+.tile p{
+    padding-left: 20px;
+    text-align: center;
+}
+.information{
+    padding-bottom: 100px
+}
+.quote-container{
+    background-color: #e5e7eb;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    max-width: 780px;
+}
+.author{
+    font-weight: bolder;
+    font-size: 18px;
+    margin-left: auto;
+    padding-right: 400px;
 }
