@@ -1,2 +1,2 @@
 # The Odin project -  landing-page
-Practice project for TOP - css foundation.
+This project is the part of The Odin Project's curriculum.
